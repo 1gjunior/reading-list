@@ -1,7 +1,9 @@
+import BookContextProvider from './context/BookContext';
+
 function App() {
   return (
     <div className="App">
-      <h1>React</h1>
+      <BookContextProvider></BookContextProvider>
     </div>
   );
 }
